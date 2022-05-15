@@ -1,0 +1,150 @@
+/* Styles */
+
+body {
+    margin:auto;
+    background-color: black;
+}
+
+a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    justify-content: center;
+}
+
+h1 {
+    color: antiquewhite;
+    margin: 0px;
+}
+
+.spacer {
+    margin-bottom: 5rem;
+}
+
+/* Start Header */
+
+.head-container {
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.head-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+.links-wrap {
+    display: block;
+    padding: 0.25rem; 
+    margin-left: auto; 
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.links {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pd {
+    margin-left: 1.5rem;
+}
+
+/* End Header */
+
+/* Start Hero Block */
+
+.hero-container {
+    height:500px;
+    display: flex;
+    align-items: center;
+}
+
+.center-container {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text {
+text-align: center;
+color:antiquewhite;
+}
+
+/* End  Hero Block */
+
+/* Start Tattoo Block */
+
+.tattoo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.grid-image {
+    width: 24.5%;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+/* End Tattoo Block */
+
+/* Start Music Block */
+
+.band-block {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.band-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yt-embed {
+display:flex;
+justify-content: center;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+/*End Music Block */
+
+/* Start Footer */
