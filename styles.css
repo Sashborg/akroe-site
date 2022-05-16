@@ -99,10 +99,12 @@ img {
 }
 
 .center-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
 .hero-text {
@@ -114,18 +116,27 @@ color:antiquewhite;
 
 /* Start Tattoo Block */
 
+.tattoo-block {
+    display:flex;
+    flex-wrap: wrap;
+}
+
 .tattoo-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 2px;
 }
 
+
 .grid-image {
-    width: 24.5%;
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid black;
     border-radius: 3%;
-}
+    max-width: 40%;
+    }
+
 
 /* End Tattoo Block */
 
@@ -142,10 +153,6 @@ color:antiquewhite;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;    
-}
-
-.scabbed {
-    max-width: 50%;
 }
 
 .yt-embed {
@@ -166,3 +173,4 @@ color:antiquewhite;
 /*End Music Block */
 
 /* Start Footer */
+
