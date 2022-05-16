@@ -25,6 +25,11 @@ h1 {
     margin-bottom: 5rem;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 /* Start Header */
 
 .head-container {
@@ -140,7 +145,7 @@ color:antiquewhite;
 }
 
 .scabbed {
-    width: 50%;
+    max-width: 50%;
 }
 
 .yt-embed {
