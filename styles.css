@@ -134,15 +134,28 @@ color:antiquewhite;
 
 .band-logo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+}
+
+.scabbed {
+    width: 50%;
 }
 
 .yt-embed {
-display:flex;
-justify-content: center;
-margin-left: 20px;
-margin-right: 20px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.yt-embed iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
 /*End Music Block */
