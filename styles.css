@@ -14,6 +14,7 @@ ul {
     list-style: none;
     display: block;
     justify-content: center;
+    padding: 0;
 }
 
 h1 {
@@ -57,14 +58,11 @@ img {
     width: 100%;
 }
 
-.logo {
-    margin-right: 1rem;
-}
 
 .links-wrap {
     display: block;
     padding: 0.25rem; 
-    margin-left: auto; 
+    align-items: center;
 }
 
 .nav {
@@ -135,10 +133,12 @@ color:antiquewhite;
     border: 1px solid black;
     border-radius: 3%;
     max-width: 40%;
+    margin: 10px;
     }
 
 
 /* End Tattoo Block */
+
 
 /* Start Music Block */
 
@@ -157,7 +157,7 @@ color:antiquewhite;
 
 .yt-embed {
     position: relative;
-    width: 100%;
+    width: 96%;
     padding-bottom: 56.25%;
     height: 0;
 }
